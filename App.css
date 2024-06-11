@@ -1,0 +1,194 @@
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #a1dce6;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+   
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  input[type="file"] {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  .button-container {
+    display: flex;
+    width: 100%;
+    gap: 10px; /* Optional: adds space between the buttons */
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center;     /* Center the buttons vertically */
+    gap: 10px;               /* Adds space between the buttons */
+    width: 100%;
+    padding: 20px;           /* Optional: adds padding around the container */
+  }
+
+  button[type="reset"],
+  button[type="submit"] {
+    flex: 1;                /* Make the buttons take up equal space */
+    max-width: 100px;       /* Optional: limit the maximum width of the buttons */
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+  }
+
+  button[type="submit"]:disabled {
+    background-color: rgb(249, 246, 246); /* Disabled button color */
+    color: white;
+    
+  }
+
+  button[type="submit"]:not(:disabled) {
+    background-color: green; /* Enabled button color */
+    color: white;
+    color: #f8f7f7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+  }
+  
+  button[type="reset"]:hover,
+  button[type="submit"]:hover {
+    background-color: #698069;
+  }
+  
+  button[type="reset"] {
+    background-color: #e62d09;
+  }
+ 
+  .form-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  label {
+    flex: 0 0 150px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea,
+  input[type="file"],
+  select {
+    flex: 1;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  input[type="radio"] + label,
+  input[type="checkbox"] + label {
+    margin-left: 5px;
+  }
+  
+  .gender,
+  .subject {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  
+  .gender label,
+  .subject label {
+    flex: 0 0 50px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  .gender input[type="radio"],
+  .subject input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .gender input[type="radio"] + label,
+  .subject input[type="checkbox"] + label {
+    margin-left: 5px;
+  }
+  .gender {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.gender label {
+  margin-right: 30px;
+}
+
+.gender input[type="radio"] {
+  margin-right: 5px;
+}
+
+.gender input[type="radio"] + label {
+  margin-left: 5px;
+}
+
+.gender label:nth-child(1) {
+  margin-left: 0;
+}
+  .form-group:last-child {
+    margin-bottom: 0;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  button[type="reset"] {
+    margin-right: 10px;
+  }
